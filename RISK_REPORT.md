@@ -63,6 +63,14 @@ The VaR formula permits **107 MWh**; the separate volume limit permits **2,000 M
 
 The binding maximum is therefore **107 MWh**.
 
+## Latest model forecast
+
+- Target date: **2026-07-14**
+- Forecast demand: **48.57 GW**
+- Forecast nuclear generation: **39.02 GW**
+- Forecast residual demand: **-4.48 GW**
+- Forecast daily peak price: **€182.51/MWh**
+
 ## Limitations
 
 - Parametric VaR assumes price changes are approximately normally distributed; power markets have spikes and fat tails.
