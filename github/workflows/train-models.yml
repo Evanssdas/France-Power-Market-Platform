@@ -1,0 +1,40 @@
+name: Retrain France models
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: france-power-training
+  cancel-in-progress: false
+
+jobs:
+  train:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Train and validate models
+        run: python train_models.py
+
+      - name: Run offline tests
+        run: pytest -q
+
+      - name: Commit models and model card
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add model_fr_*.txt model_metadata.json training_metrics.json MODEL_CARD.md
+          git commit -m "Retrain France models $(date -u +%Y-%m-%d)" || echo "nothing to commit"
+          git push
