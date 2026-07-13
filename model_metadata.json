@@ -1,0 +1,51 @@
+{
+  "trained_at_utc": "2026-07-13T13:38:52.380392+00:00",
+  "training_start": "2025-01-17",
+  "training_end": "2026-07-07",
+  "holdout_start": "2026-01-11",
+  "forecast_issue_design": "10:30 Europe/Paris on D-1",
+  "information_lags": {
+    "lag2": "D-2, latest completed daily observation at issue time",
+    "lag7": "D-7, comparable completed observation one week earlier"
+  },
+  "weather_proxy": "Paris proxy",
+  "weather_training_source": "Open-Meteo archive (realised historical weather)",
+  "weather_serving_source": "Open-Meteo live forecast",
+  "component_features": [
+    "t_mean",
+    "t_max",
+    "t_min",
+    "wind_max",
+    "solar_rad",
+    "HDD",
+    "CDD",
+    "dow",
+    "is_we",
+    "month",
+    "doy",
+    "is_hol",
+    "lag2",
+    "lag7"
+  ],
+  "price_features": [
+    "f_residual",
+    "t_mean",
+    "t_max",
+    "t_min",
+    "wind_max",
+    "solar_rad",
+    "HDD",
+    "CDD",
+    "dow",
+    "is_we",
+    "month",
+    "doy",
+    "is_hol",
+    "price_lag2",
+    "price_lag7"
+  ],
+  "price_transform": "asinh(price / 50); inverse = sinh(prediction) * 50",
+  "price_target": "daily maximum French day-ahead price (EUR/MWh)",
+  "generation_targets": "daily mean GW",
+  "price_stacking": "out-of-fold component forecasts"
+}
