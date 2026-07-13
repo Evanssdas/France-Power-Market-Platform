@@ -1,0 +1,11 @@
+{
+  "weather_lat": 48.86,
+  "weather_lon": 2.35,
+  "weather_label": "Paris proxy",
+  "illustrative_position_side": "long",
+  "illustrative_position_mwh": 100.0,
+  "illustrative_capital_eur": 500000.0,
+  "var_limit_percent_of_capital": 0.02,
+  "max_position_mwh": 2000.0,
+  "stress_price_shocks_eur_mwh": [-100, -50, -25, 25, 50, 100]
+}
