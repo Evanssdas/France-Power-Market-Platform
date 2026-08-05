@@ -2,7 +2,7 @@
 
 _Only forecasts marked **pre_auction** and later fully graded are included._
 
-- Logged rows: **22**
+- Logged rows: **23**
 - Official pre-auction rows: **0**
 - Fully graded official rows: **0**
 
