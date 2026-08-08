@@ -2,8 +2,8 @@
 
 _Only forecasts marked **pre_auction** and later fully graded are included._
 
-- Logged rows: **25**
-- Official pre-auction rows: **1**
+- Logged rows: **26**
+- Official pre-auction rows: **2**
 - Fully graded official rows: **0**
 
 > **Sample warning:** fewer than 30 graded forecasts are available. The figures below are operational checks, not strong evidence of model skill.
