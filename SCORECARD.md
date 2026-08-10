@@ -2,9 +2,9 @@
 
 _Only forecasts marked **pre_auction** and later fully graded are included._
 
-- Logged rows: **27**
-- Official pre-auction rows: **3**
-- Fully graded official rows: **1**
+- Logged rows: **28**
+- Official pre-auction rows: **4**
+- Fully graded official rows: **2**
 
 > **Sample warning:** fewer than 30 graded forecasts are available. The figures below are operational checks, not strong evidence of model skill.
 
@@ -14,21 +14,21 @@ The persistence baseline uses the latest completed daily observation available a
 
 | target | n | model MAE | baseline MAE | improvement | RMSE | bias | model wins |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| demand (GW) | 1 | 0.82 | 3.64 | +77.4% | 0.82 | -0.82 | 100.0% |
-| nuclear (GW) | 1 | 2.19 | 2.70 | +18.7% | 2.19 | +2.19 | 100.0% |
-| wind (GW) | 1 | 0.69 | 0.96 | +28.6% | 0.69 | -0.69 | 100.0% |
-| solar (GW) | 1 | 0.55 | 1.28 | +57.1% | 0.55 | +0.55 | 100.0% |
-| hydro (GW) | 1 | 0.35 | 0.11 | -215.5% | 0.35 | +0.35 | 0.0% |
-| residual (GW) | 1 | 3.23 | 1.40 | -130.2% | 3.23 | -3.23 | 0.0% |
-| peak price (EUR/MWh) | 1 | 62.43 | 2.25 | -2674.6% | 62.43 | -62.43 | 0.0% |
+| demand (GW) | 2 | 1.18 | 3.68 | +67.8% | 1.24 | +0.36 | 100.0% |
+| nuclear (GW) | 2 | 1.99 | 3.85 | +48.1% | 2.00 | +1.99 | 100.0% |
+| wind (GW) | 2 | 1.29 | 0.92 | -40.4% | 1.43 | +0.61 | 50.0% |
+| solar (GW) | 2 | 0.29 | 1.82 | +84.1% | 0.39 | +0.26 | 100.0% |
+| hydro (GW) | 2 | 0.47 | 0.24 | -95.0% | 0.49 | +0.47 | 0.0% |
+| residual (GW) | 2 | 2.97 | 3.15 | +5.7% | 2.98 | -2.97 | 50.0% |
+| peak price (EUR/MWh) | 2 | 43.52 | 1.46 | -2870.6% | 47.45 | -43.52 | 0.0% |
 
 ## Price direction
 
-Directional accuracy versus the D-2 reference price: **0.0%** across **1** graded forecasts.
+Directional accuracy versus the D-2 reference price: **0.0%** across **2** graded forecasts.
 
 ## Illustrative VaR backtest
 
-- Observations with a usable risk record: **1**
+- Observations with a usable risk record: **2**
 - 95% VaR breaches: **0**
 - Observed breach rate: **0.0%** (the model benchmark is approximately 5% over a large sample)
 
