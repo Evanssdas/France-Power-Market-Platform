@@ -2,9 +2,9 @@
 
 _Only forecasts marked **pre_auction** and later fully graded are included._
 
-- Logged rows: **30**
-- Official pre-auction rows: **6**
-- Fully graded official rows: **4**
+- Logged rows: **31**
+- Official pre-auction rows: **7**
+- Fully graded official rows: **5**
 
 > **Sample warning:** fewer than 30 graded forecasts are available. The figures below are operational checks, not strong evidence of model skill.
 
@@ -14,21 +14,21 @@ The persistence baseline uses the latest completed daily observation available a
 
 | target | n | model MAE | baseline MAE | improvement | RMSE | bias | model wins |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| demand (GW) | 4 | 2.26 | 3.64 | +38.1% | 2.58 | +1.85 | 75.0% |
-| nuclear (GW) | 4 | 2.76 | 2.12 | -30.2% | 2.92 | +2.76 | 50.0% |
-| wind (GW) | 4 | 1.02 | 1.09 | +6.1% | 1.22 | -0.01 | 75.0% |
-| solar (GW) | 4 | 0.29 | 1.45 | +80.0% | 0.35 | -0.02 | 100.0% |
-| hydro (GW) | 4 | 0.61 | 0.22 | -176.4% | 0.64 | +0.61 | 0.0% |
-| residual (GW) | 4 | 1.93 | 1.95 | +1.0% | 2.20 | -1.50 | 50.0% |
-| peak price (EUR/MWh) | 4 | 31.84 | 14.22 | -124.0% | 36.80 | -31.84 | 50.0% |
+| demand (GW) | 5 | 1.93 | 3.33 | +41.9% | 2.32 | +1.60 | 80.0% |
+| nuclear (GW) | 5 | 2.83 | 1.81 | -56.4% | 2.96 | +2.83 | 40.0% |
+| wind (GW) | 5 | 0.89 | 1.30 | +31.3% | 1.11 | +0.07 | 80.0% |
+| solar (GW) | 5 | 0.32 | 1.25 | +74.3% | 0.37 | -0.10 | 80.0% |
+| hydro (GW) | 5 | 0.57 | 0.22 | -164.8% | 0.60 | +0.57 | 0.0% |
+| residual (GW) | 5 | 2.12 | 2.16 | +2.1% | 2.35 | -1.77 | 60.0% |
+| peak price (EUR/MWh) | 5 | 86.14 | 66.97 | -28.6% | 139.60 | -86.14 | 40.0% |
 
 ## Price direction
 
-Directional accuracy versus the D-2 reference price: **50.0%** across **4** graded forecasts.
+Directional accuracy versus the D-2 reference price: **40.0%** across **5** graded forecasts.
 
 ## Illustrative VaR backtest
 
-- Observations with a usable risk record: **4**
+- Observations with a usable risk record: **5**
 - 95% VaR breaches: **0**
 - Observed breach rate: **0.0%** (the model benchmark is approximately 5% over a large sample)
 
