@@ -2,9 +2,9 @@
 
 _Only forecasts marked **pre_auction** and later fully graded are included._
 
-- Logged rows: **32**
-- Official pre-auction rows: **8**
-- Fully graded official rows: **6**
+- Logged rows: **33**
+- Official pre-auction rows: **9**
+- Fully graded official rows: **7**
 
 > **Sample warning:** fewer than 30 graded forecasts are available. The figures below are operational checks, not strong evidence of model skill.
 
@@ -14,23 +14,23 @@ The persistence baseline uses the latest completed daily observation available a
 
 | target | n | model MAE | baseline MAE | improvement | RMSE | bias | model wins |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| demand (GW) | 6 | 1.63 | 3.03 | +46.3% | 2.12 | +1.32 | 83.3% |
-| nuclear (GW) | 6 | 2.97 | 1.56 | -90.6% | 3.09 | +2.97 | 33.3% |
-| wind (GW) | 6 | 0.95 | 1.38 | +31.1% | 1.13 | +0.26 | 83.3% |
-| solar (GW) | 6 | 0.27 | 1.13 | +76.1% | 0.34 | -0.09 | 83.3% |
-| hydro (GW) | 6 | 0.52 | 0.26 | -99.8% | 0.56 | +0.52 | 16.7% |
-| residual (GW) | 6 | 2.64 | 2.42 | -9.2% | 3.04 | -2.35 | 50.0% |
-| peak price (EUR/MWh) | 6 | 88.34 | 85.99 | -2.7% | 133.73 | -88.34 | 50.0% |
+| demand (GW) | 7 | 1.44 | 3.14 | +54.1% | 1.97 | +1.18 | 85.7% |
+| nuclear (GW) | 7 | 3.09 | 1.71 | -80.4% | 3.20 | +3.09 | 28.6% |
+| wind (GW) | 7 | 0.95 | 1.26 | +24.9% | 1.11 | +0.36 | 71.4% |
+| solar (GW) | 7 | 0.30 | 1.19 | +74.7% | 0.36 | -0.14 | 85.7% |
+| hydro (GW) | 7 | 0.52 | 0.27 | -95.7% | 0.55 | +0.52 | 14.3% |
+| residual (GW) | 7 | 2.90 | 2.09 | -39.2% | 3.28 | -2.65 | 42.9% |
+| peak price (EUR/MWh) | 7 | 79.96 | 114.89 | +30.4% | 124.32 | -79.96 | 57.1% |
 
 ## Price direction
 
-Directional accuracy versus the D-2 reference price: **50.0%** across **6** graded forecasts.
+Directional accuracy versus the D-2 reference price: **57.1%** across **7** graded forecasts.
 
 ## Illustrative VaR backtest
 
-- Observations with a usable risk record: **6**
-- 95% VaR breaches: **1**
-- Observed breach rate: **16.7%** (the model benchmark is approximately 5% over a large sample)
+- Observations with a usable risk record: **7**
+- 95% VaR breaches: **2**
+- Observed breach rate: **28.6%** (the model benchmark is approximately 5% over a large sample)
 
 ## Reading the table
 
