@@ -2,9 +2,9 @@
 
 _Only forecasts marked **pre_auction** and later fully graded are included._
 
-- Logged rows: **36**
-- Official pre-auction rows: **12**
-- Fully graded official rows: **10**
+- Logged rows: **37**
+- Official pre-auction rows: **13**
+- Fully graded official rows: **11**
 
 > **Sample warning:** fewer than 30 graded forecasts are available. The figures below are operational checks, not strong evidence of model skill.
 
@@ -14,23 +14,23 @@ The persistence baseline uses the latest completed daily observation available a
 
 | target | n | model MAE | baseline MAE | improvement | RMSE | bias | model wins |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| demand (GW) | 10 | 1.24 | 3.34 | +62.8% | 1.74 | +1.06 | 80.0% |
-| nuclear (GW) | 10 | 3.41 | 1.66 | -105.4% | 3.57 | +3.41 | 20.0% |
-| wind (GW) | 10 | 0.97 | 1.28 | +23.9% | 1.11 | +0.46 | 60.0% |
-| solar (GW) | 10 | 0.43 | 1.08 | +60.2% | 0.55 | -0.21 | 80.0% |
-| hydro (GW) | 10 | 0.43 | 0.30 | -45.2% | 0.48 | +0.43 | 30.0% |
-| residual (GW) | 10 | 3.21 | 2.13 | -50.5% | 3.63 | -3.03 | 40.0% |
-| peak price (EUR/MWh) | 10 | 74.28 | 89.56 | +17.1% | 109.25 | -74.28 | 50.0% |
+| demand (GW) | 11 | 1.20 | 3.13 | +61.8% | 1.67 | +1.03 | 81.8% |
+| nuclear (GW) | 11 | 3.38 | 1.81 | -86.8% | 3.53 | +3.38 | 27.3% |
+| wind (GW) | 11 | 1.12 | 1.46 | +23.5% | 1.32 | +0.18 | 63.6% |
+| solar (GW) | 11 | 0.58 | 1.08 | +46.8% | 0.81 | -0.37 | 72.7% |
+| hydro (GW) | 11 | 0.46 | 0.32 | -40.8% | 0.51 | +0.45 | 27.3% |
+| residual (GW) | 11 | 3.06 | 2.50 | -22.4% | 3.50 | -2.61 | 45.5% |
+| peak price (EUR/MWh) | 11 | 73.46 | 81.64 | +10.0% | 106.01 | -73.46 | 45.5% |
 
 ## Price direction
 
-Directional accuracy versus the D-2 reference price: **60.0%** across **10** graded forecasts.
+Directional accuracy versus the D-2 reference price: **54.5%** across **11** graded forecasts.
 
 ## Illustrative VaR backtest
 
-- Observations with a usable risk record: **10**
+- Observations with a usable risk record: **11**
 - 95% VaR breaches: **2**
-- Observed breach rate: **20.0%** (the model benchmark is approximately 5% over a large sample)
+- Observed breach rate: **18.2%** (the model benchmark is approximately 5% over a large sample)
 
 ## Reading the table
 
