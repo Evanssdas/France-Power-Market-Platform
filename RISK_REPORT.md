@@ -1,12 +1,12 @@
 # France Daily Peak Price Risk Report
 
-_Generated 2026-09-30. Energy-Charts FR day-ahead prices; daily maximum series._
+_Generated 2026-10-01. Energy-Charts FR day-ahead prices; daily maximum series._
 
 ## What is market data and what is an assumption?
 
 | item | value | type |
 |---|---:|---|
-| Latest observed daily peak price | €250.12/MWh | market data |
+| Latest observed daily peak price | €261.03/MWh | market data |
 | 30-day volatility of daily price changes | €57.14/MWh | calculated from market data |
 | Paper position | long 100 MWh | illustrative assumption |
 | Paper capital | €500,000 | illustrative assumption |
@@ -18,9 +18,9 @@ The risk limit is not supplied by Energy-Charts or by the market. It is a transp
 
 | metric | value |
 |---|---:|
-| Latest daily peak | €250.12/MWh |
+| Latest daily peak | €261.03/MWh |
 | 30-day standard deviation of daily price changes | €57.14/MWh |
-| 90-day standard deviation of daily price changes | €52.62/MWh |
+| 90-day standard deviation of daily price changes | €52.45/MWh |
 | 90-day daily-peak range | €128.84 to €487.38/MWh |
 | Worst observed daily change in window | €-207.30/MWh |
 | Volatility regime | **NORMAL** |
@@ -33,7 +33,7 @@ Because electricity prices can be zero or negative, this report uses absolute da
 
 | position | VaR 95% | VaR 99% |
 |---|---:|---:|
-| long 100 MWh | €9,399 | €13,293 |
+| long 100 MWh | €9,399 | €13,294 |
 
 Under the model assumptions, there is approximately a 5% probability that the one-day loss exceeds **€9,399**.
 
@@ -65,11 +65,11 @@ The binding maximum is therefore **106 MWh**.
 
 ## Latest model forecast
 
-- Target date: **2026-10-01**
-- Forecast demand: **44.48 GW**
-- Forecast nuclear generation: **38.01 GW**
-- Forecast residual demand: **-5.10 GW**
-- Forecast daily peak price: **€143.38/MWh**
+- Target date: **2026-10-02**
+- Forecast demand: **44.28 GW**
+- Forecast nuclear generation: **39.35 GW**
+- Forecast residual demand: **-5.20 GW**
+- Forecast daily peak price: **€161.55/MWh**
 
 ## Limitations
 
