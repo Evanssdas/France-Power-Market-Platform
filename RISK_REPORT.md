@@ -1,13 +1,13 @@
 # France Daily Peak Price Risk Report
 
-_Generated 2026-10-13. Energy-Charts FR day-ahead prices; daily maximum series._
+_Generated 2026-10-14. Energy-Charts FR day-ahead prices; daily maximum series._
 
 ## What is market data and what is an assumption?
 
 | item | value | type |
 |---|---:|---|
-| Latest observed daily peak price | €291.47/MWh | market data |
-| 30-day volatility of daily price changes | €69.22/MWh | calculated from market data |
+| Latest observed daily peak price | €269.29/MWh | market data |
+| 30-day volatility of daily price changes | €69.21/MWh | calculated from market data |
 | Paper position | long 100 MWh | illustrative assumption |
 | Paper capital | €500,000 | illustrative assumption |
 | 95% VaR appetite | 2.0% of paper capital = €10,000 | illustrative assumption |
@@ -18,9 +18,9 @@ The risk limit is not supplied by Energy-Charts or by the market. It is a transp
 
 | metric | value |
 |---|---:|
-| Latest daily peak | €291.47/MWh |
-| 30-day standard deviation of daily price changes | €69.22/MWh |
-| 90-day standard deviation of daily price changes | €57.70/MWh |
+| Latest daily peak | €269.29/MWh |
+| 30-day standard deviation of daily price changes | €69.21/MWh |
+| 90-day standard deviation of daily price changes | €57.71/MWh |
 | 90-day daily-peak range | €147.98 to €487.38/MWh |
 | Worst observed daily change in window | €-207.30/MWh |
 | Volatility regime | **ELEVATED** |
@@ -33,9 +33,9 @@ Because electricity prices can be zero or negative, this report uses absolute da
 
 | position | VaR 95% | VaR 99% |
 |---|---:|---:|
-| long 100 MWh | €11,385 | €16,102 |
+| long 100 MWh | €11,384 | €16,100 |
 
-Under the model assumptions, there is approximately a 5% probability that the one-day loss exceeds **€11,385**.
+Under the model assumptions, there is approximately a 5% probability that the one-day loss exceeds **€11,384**.
 
 ## Absolute price-shock stress tests
 
@@ -55,7 +55,7 @@ These scenarios have no assigned probability; they show the financial consequenc
 | limit | set | current | status |
 |---|---:|---:|---|
 | Maximum single position | 2,000 MWh | 100 MWh | OK |
-| Maximum portfolio 95% VaR | €10,000 | €11,385 | **BREACH** |
+| Maximum portfolio 95% VaR | €10,000 | €11,384 | **BREACH** |
 
 ## Position sizing
 
@@ -65,11 +65,11 @@ The binding maximum is therefore **88 MWh**.
 
 ## Latest model forecast
 
-- Target date: **2026-10-14**
-- Forecast demand: **45.91 GW**
-- Forecast nuclear generation: **41.51 GW**
-- Forecast residual demand: **-6.15 GW**
-- Forecast daily peak price: **€177.53/MWh**
+- Target date: **2026-10-15**
+- Forecast demand: **45.25 GW**
+- Forecast nuclear generation: **40.28 GW**
+- Forecast residual demand: **-6.13 GW**
+- Forecast daily peak price: **€164.17/MWh**
 
 ## Limitations
 
