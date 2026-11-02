@@ -1,12 +1,12 @@
 # France Daily Peak Price Risk Report
 
-_Generated 2026-11-01. Energy-Charts FR day-ahead prices; daily maximum series._
+_Generated 2026-11-02. Energy-Charts FR day-ahead prices; daily maximum series._
 
 ## What is market data and what is an assumption?
 
 | item | value | type |
 |---|---:|---|
-| Latest observed daily peak price | €303.15/MWh | market data |
+| Latest observed daily peak price | €303.00/MWh | market data |
 | 30-day volatility of daily price changes | €64.51/MWh | calculated from market data |
 | Paper position | long 100 MWh | illustrative assumption |
 | Paper capital | €500,000 | illustrative assumption |
@@ -18,9 +18,9 @@ The risk limit is not supplied by Energy-Charts or by the market. It is a transp
 
 | metric | value |
 |---|---:|
-| Latest daily peak | €303.15/MWh |
+| Latest daily peak | €303.00/MWh |
 | 30-day standard deviation of daily price changes | €64.51/MWh |
-| 90-day standard deviation of daily price changes | €61.96/MWh |
+| 90-day standard deviation of daily price changes | €61.95/MWh |
 | 90-day daily-peak range | €109.20 to €487.38/MWh |
 | Worst observed daily change in window | €-207.30/MWh |
 | Volatility regime | **NORMAL** |
@@ -65,11 +65,11 @@ The binding maximum is therefore **94 MWh**.
 
 ## Latest model forecast
 
-- Target date: **2026-11-02**
-- Forecast demand: **51.63 GW**
-- Forecast nuclear generation: **44.70 GW**
-- Forecast residual demand: **-8.22 GW**
-- Forecast daily peak price: **€150.18/MWh**
+- Target date: **2026-11-03**
+- Forecast demand: **52.17 GW**
+- Forecast nuclear generation: **43.38 GW**
+- Forecast residual demand: **-6.40 GW**
+- Forecast daily peak price: **€154.02/MWh**
 
 ## Limitations
 
