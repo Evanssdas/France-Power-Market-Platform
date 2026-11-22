@@ -1,6 +1,6 @@
 # France Daily Peak Price Risk Report
 
-_Generated 2026-11-21. Energy-Charts FR day-ahead prices; daily maximum series._
+_Generated 2026-11-22. Energy-Charts FR day-ahead prices; daily maximum series._
 
 ## What is market data and what is an assumption?
 
